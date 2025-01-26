@@ -9,7 +9,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "https://unifies.github.io/Fruity-Plate",
+      base: "https://unifies.github.io/Fruity-Plate/",
     },
   },
 });
