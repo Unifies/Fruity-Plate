@@ -14,19 +14,18 @@ const Banner2 = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-3xl lg:text-6xl font-bold uppercase"
+            className="text-3xl lg:text-5xl font-bold uppercase"
           >
-            Online Fruit Store
+            Fruity Plate Online Store
           </motion.h1>
 
           <motion.p
             variants={FadeUp(0.7)}
             initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
+            animate="visible"
+            className="text-xl font-semibold text-secondary font-lato"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            iusto minima ad ut id eos accusantium aut, aperiam quis incidunt!
+            Your Partner in Freshness and Flavor
           </motion.p>
 
           <motion.p
@@ -34,9 +33,22 @@ const Banner2 = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
+            className="font-lato"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            iusto minima ad ut id eos accusantium aut, aperiam quis incidunt!
+            At Fruity Plate, we take pride in curating the finest selection of
+            fruits sourced directly from trusted farms. Our mission is to make
+            healthy eating effortless, delicious, and accessible.
+          </motion.p>
+
+          <motion.p
+            variants={FadeUp(0.9)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="font-lato"
+          >
+            From seasonal favorites to exotic picks, every fruit is chosen with
+            care to ensure exceptional quality and taste.
           </motion.p>
           <motion.div
             variants={FadeUp(1.1)}
@@ -45,7 +57,7 @@ const Banner2 = () => {
             viewport={{ once: true }}
             className="flex justify-center md:justify-start"
           >
-            <button className=" flex primary-btn items-center">
+            <button className=" flex primary-btn items-center font-lato">
               Download the App
             </button>
           </motion.div>

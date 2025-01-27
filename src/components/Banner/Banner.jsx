@@ -27,9 +27,9 @@ const Banner = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="text-3xl lg:text-6xl font-bold uppercase"
+              className="text-3xl lg:text-5xl font-bold uppercase"
             >
-              Brand Info
+              Why Choose Us
             </motion.h1>
 
             <motion.p
@@ -37,10 +37,13 @@ const Banner = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
+              className="pt-2 font-lato"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima ad ut id eos accusantium aut, aperiam quis
-              incidunt!
+              Whether you’re craving a juicy burst of summer berries, a
+              refreshing bite of tropical mango, or a classic crunch of apples,
+              Fruity Plate has you covered. <br />
+              <br /> Browse our wide variety of fruit platters designed to
+              delight every palate and occasion.
             </motion.p>
 
             <motion.p
@@ -49,9 +52,23 @@ const Banner = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima ad ut id eos accusantium aut, aperiam quis
-              incidunt!
+              <ul className="md:list-disc pl-3 font-lato">
+                <li className="py-2">
+                  <span className="font-semibold">Farm to Plate:</span> We
+                  source directly from farmers to ensure peak freshness.
+                  <li className="py-2">
+                    <span className="font-semibold">Handpicked Quality:</span>{" "}
+                    Each fruit is inspected to meet our premium standards.
+                  </li>
+                  <li className="py-2">
+                    <span className="font-semibold">
+                      Sustainable Practices:
+                    </span>{" "}
+                    Supporting the planet with eco-friendly packaging and
+                    responsible sourcing.
+                  </li>
+                </li>
+              </ul>
             </motion.p>
             <motion.div
               variants={FadeUp(1.1)}
@@ -60,7 +77,7 @@ const Banner = () => {
               viewport={{ once: true }}
               className="flex justify-center md:justify-start"
             >
-              <button className=" flex primary-btn items-center">
+              <button className=" flex primary-btn items-center font-lato">
                 Learn More
               </button>
             </motion.div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLeaf } from "react-icons/fa";
+import { GiFruitBowl } from "react-icons/gi";
 import { MdMenu, MdOutlineShoppingCart } from "react-icons/md";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
@@ -45,9 +45,9 @@ const Navbar = () => {
         >
           {/*Logo Section */}
           <div className="text-2xl flex items-center gap-2 font-bold uppercase cursor-pointer">
-            <p className="text-primary">Fruit</p>
-            <p className="text-secondary">Store</p>
-            <FaLeaf className="text-green-500" />
+            <p className="text-primary">Fruity</p>
+            <p className="text-secondary">Plate</p>
+            <GiFruitBowl className="text-green-500" />
           </div>
 
           {/* Menu Section */}

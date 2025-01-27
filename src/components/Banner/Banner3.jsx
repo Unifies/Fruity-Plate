@@ -31,7 +31,7 @@ const Banner3 = () => {
               viewport={{ once: true }}
               className="text-3xl lg:text-5xl font-bold uppercase"
             >
-              Get Fresh Fruits Today
+              Ready to Indulge in Freshness?
             </motion.h1>
 
             <motion.p
@@ -39,10 +39,11 @@ const Banner3 = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
+              className="font-lato"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima ad ut id eos accusantium aut, aperiam quis
-              incidunt!
+              Healthy living is just a click away. Explore our collection of
+              beautifully arranged fruit platters, perfect for every day or
+              special celebrations!
             </motion.p>
 
             <motion.div
@@ -52,7 +53,7 @@ const Banner3 = () => {
               viewport={{ once: true }}
               className="flex justify-center md:justify-start"
             >
-              <button className=" flex primary-btn items-center gap-2">
+              <button className=" flex primary-btn items-center gap-2 font-lato">
                 <span>
                   <IoBagHandleOutline className="text-xl" />
                 </span>

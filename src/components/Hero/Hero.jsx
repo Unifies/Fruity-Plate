@@ -26,18 +26,19 @@ const Hero = () => {
               variants={FadeRight(0.9)}
               initial="hidden"
               animate="visible"
-              className="text-2xl tracking-wide"
+              className="text-2xl tracking-wide font-averia"
             >
-              Order Now For Fresh Healthy Life
+              Fuel Your Day with Nature’s Sweetest Bounty
             </motion.p>
             <motion.p
               variants={FadeRight(1.2)}
               initial="hidden"
               animate="visible"
-              className="text-gray-400"
+              className="text-gray-400 font-lato"
             >
-              Healthy and yummy food for fresh morning breakfast. Eat Daily for
-              good health and mind Order now and get 20% off on your first order
+              Discover a world of fresh, vibrant, and hand-picked fruits
+              delivered to your table. At Fruity Plate, we believe every bite
+              should bring you closer to health and happiness.
             </motion.p>
             {/*Button Section */}
             <motion.div
@@ -46,11 +47,11 @@ const Hero = () => {
               animate="visible"
               className="flex justify-center md:justify-start"
             >
-              <button className=" flex primary-btn items-center gap-2">
+              <button className=" flex primary-btn items-center gap-2 font-lato">
                 <span>
                   <IoBagHandleOutline className="text-xl" />
                 </span>
-                Order Now
+                Explore Our Platters
               </button>
             </motion.div>
           </div>
