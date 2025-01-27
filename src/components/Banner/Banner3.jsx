@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../images/footer-banner.jpg";
+import BannerPng from "../../assets/footer-banner.jpg";
 import { motion } from "framer-motion";
 import { FadeLeft } from "../../Utility/Animations";
 import { IoBagHandleOutline } from "react-icons/io5";

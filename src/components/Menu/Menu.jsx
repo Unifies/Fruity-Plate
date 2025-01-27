@@ -1,8 +1,8 @@
 import React from "react";
-import Fruit1 from "../../images/Fruits/Apple.png";
-import Fruit2 from "../../images/Fruits/Orange.png";
-import Fruit3 from "../../images/Fruits/Avocado.png";
-import Fruit4 from "../../images/Fruits/Cherries.png";
+import Fruit1 from "../../assets/Fruits/Apple.png";
+import Fruit2 from "../../assets/Fruits/Orange.png";
+import Fruit3 from "../../assets/Fruits/Avocado.png";
+import Fruit4 from "../../assets/Fruits/Cherries.png";
 import { AnimatePresence, motion } from "framer-motion";
 import { FadeLeft } from "../../Utility/Animations";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../images/Fruit-Splash.png";
+import BannerPng from "../../assets/Fruit-Splash.png";
 import { motion } from "framer-motion";
 import { FadeUp } from "../../Utility/Animations";
 

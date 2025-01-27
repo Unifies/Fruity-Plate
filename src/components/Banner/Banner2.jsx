@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../images/Fruit-Store.png";
+import BannerPng from "../../assets/Fruit-Store.png";
 import { motion } from "framer-motion";
 import { FadeUp } from "../../Utility/Animations";
 

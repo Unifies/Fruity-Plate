@@ -1,7 +1,7 @@
 import React from "react";
 import { IoBagHandleOutline } from "react-icons/io5";
-import HeroPng from "../../images/Healthy-Fruitss.png";
-import LeafPng from "../../images/leaf.png";
+import HeroPng from "../../assets/Healthy-Fruitss.png";
+import LeafPng from "../../assets/leaf.png";
 import { motion } from "framer-motion";
 import { FadeRight } from "../../Utility/Animations";
 

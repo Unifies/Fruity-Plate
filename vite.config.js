@@ -5,11 +5,11 @@ import tailwindcss from "tailwindcss";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "https://unifies.github.io/Fruity-Plate/",
 
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "https://unifies.github.io/Fruity-Plate/",
     },
   },
 });
